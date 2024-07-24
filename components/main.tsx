@@ -38,7 +38,7 @@ export function Main() {
     if (supabaseResponse.ok) {
       alert('Data stored successfully');
     } else {
-      alert('Error storing data');
+      alert('Error storing data!');
     }
   };
 
